@@ -1,0 +1,12 @@
+#vsc-lite-root { position: fixed; right: 18px; bottom: 18px; z-index: 2147483647; font: 14px Arial, sans-serif; color: #fff; }
+#vsc-lite-root * { box-sizing: border-box; }
+.vsc-toggle { border: 0; border-radius: 999px; padding: 9px 13px; background: #2563eb; color: #fff; cursor: pointer; box-shadow: 0 2px 12px #0005; }
+.vsc-panel { display: none; width: 250px; margin-bottom: 8px; padding: 12px; border-radius: 10px; background: #111827ee; box-shadow: 0 5px 24px #0008; }
+.vsc-panel.open { display: block; }
+.vsc-title { display:flex; justify-content:space-between; align-items:center; margin-bottom:9px; font-weight:700; }
+.vsc-speeds { display:grid; grid-template-columns:repeat(3, 1fr); gap:6px; }
+.vsc-speeds button, .vsc-custom button { border:1px solid #ffffff33; border-radius:6px; padding:6px 4px; background:#374151; color:#fff; cursor:pointer; }
+.vsc-speeds button.active { background:#2563eb; border-color:#93c5fd; }
+.vsc-custom { display:flex; gap:6px; margin-top:9px; }
+.vsc-custom input { width:100%; min-width:0; border:1px solid #ffffff33; border-radius:6px; padding:6px; background:#1f2937; color:#fff; }
+.vsc-status { margin-top:9px; color:#bfdbfe; font-size:12px; }

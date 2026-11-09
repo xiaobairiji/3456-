@@ -1,0 +1,31 @@
+{
+  "manifest_version": 3,
+  "name": "3456视频倍速插件",
+  "version": "0.1.0",
+  "description": "为网页 HTML5 视频提供预设和自定义播放倍速。",
+  "permissions": ["storage"],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "css": ["content.css"],
+      "run_at": "document_idle"
+    }
+  ],
+  "action": {
+    "default_title": "视频倍速控制",
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icons/3456fov.png",
+      "32": "icons/3456fov.png",
+      "48": "icons/3456fov.png",
+      "128": "icons/3456fov.png"
+    }
+  },
+  "icons": {
+    "16": "icons/3456fov.png",
+    "32": "icons/3456fov.png",
+    "48": "icons/3456fov.png",
+    "128": "icons/3456fov.png"
+  }
+}
